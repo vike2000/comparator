@@ -24,10 +24,13 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
+    "repositories": [
+        {"type": "vcs", "url": "git@github.com:vike2000/exporter.git"}
+    ],
     "require": {
         "php": ">=8.0",
         "sebastian/diff": "^5.0",
-        "sebastian/exporter": "^5.0",
+        "sebastian/exporter": "dev-master",
         "ext-dom": "*"
     },
     "require-dev": {
@@ -56,4 +59,3 @@
         }
     }
 }
-
